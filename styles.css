@@ -1,0 +1,49 @@
+body {
+  font: 13px / 20px PTSansRegular, Arial, Helvetica, sans-serif;
+  font-family: "Open Sans";
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+header {
+  background-color: white;
+  padding: 1rem;
+  color: #0bb0d9;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(166, 166, 166, 1);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(166, 166, 166, 1);
+  box-shadow: 0px 5px 10px 0px rgba(166, 166, 166, 1);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.doctor {
+  width: 22%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  height: 75px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item.active {
+  display: flex;
+  gap: 15px; 
+}
